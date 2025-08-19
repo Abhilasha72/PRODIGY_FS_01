@@ -26,22 +26,24 @@ As part of my internship at **Prodigy Infotech**, I developed a complete **role-
 ## Getting Started
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/your-username/secure-auth-system.git
 cd secure-auth-system
+```
 
 ### 2. Install dependencies
+```bash
 npm install
-
+```
 ### 3. Set up environment variables
 ## Create a .env file in the root directory:
-
+```env
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 SESSION_SECRET=your_secret_key
-
+```
 
 ### 4. Start the server
-
+```bash
 npm start
-
+```
